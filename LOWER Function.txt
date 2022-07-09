@@ -1,0 +1,2 @@
+SELECT LOWER(Country) as Country, LOWER(City) as City 
+FROM Customers;
