@@ -1,0 +1,2 @@
+SELECT UPPER(Country) as Country, UPPER(City) as City 
+FROM Customers;
