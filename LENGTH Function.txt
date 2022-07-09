@@ -1,0 +1,5 @@
+/* SELECT Country, LENGTH(Country) as Length
+FROM Customers; */
+SELECT* 
+FROM Customers
+WHERE LENGTH(Country) = 2;
