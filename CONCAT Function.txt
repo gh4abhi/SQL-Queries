@@ -1,0 +1,2 @@
+SELECT CONCAT('My Name is ', FirstName, ' ', LastName) AS Name
+FROM Employees;
