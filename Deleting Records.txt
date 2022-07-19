@@ -1,0 +1,12 @@
+use db;
+create table nulltable(
+id int not null,
+name varchar(15));
+
+insert into nulltable(id) values(1);
+insert into nulltable values(2,'Arjun');
+
+delete from nulltable
+where id = 2;
+
+select* from nulltable;
