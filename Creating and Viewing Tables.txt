@@ -1,0 +1,10 @@
+create database db;
+use db;
+create table employee(
+id int,
+name varchar(15),
+experience int);
+describe employee;
+create table EmpId as
+select id from employee;
+select* from EmpId;
