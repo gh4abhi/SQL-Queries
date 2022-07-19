@@ -1,0 +1,16 @@
+use db;
+create table SQLDataTypes(
+id int,
+salary double,
+married bool,
+name varchar(15),
+join_date date,
+join_time time,
+join_date_time datetime,
+join_year year);
+
+describe SQLDataTypes;
+
+insert into SQLDataTypes values(1,2000000.00,1,'Ram','2000-10-2','04:00:00','2000-10-2 04:00:00', '2000');
+
+select* from SQLDataTypes;
