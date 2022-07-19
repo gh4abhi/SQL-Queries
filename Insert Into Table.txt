@@ -1,0 +1,5 @@
+use db;
+describe employee;
+insert into employee values(1,'Ram',12);
+insert into employee(id,name) values(2,'Alice');
+select* from employee;
