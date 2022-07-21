@@ -1,0 +1,6 @@
+use db;
+describe employees;
+
+set autocommit = 0;
+
+delete from employees;
