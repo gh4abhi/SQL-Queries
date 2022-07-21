@@ -1,0 +1,13 @@
+use db;
+describe employees;
+
+select* from employees;
+
+set autocommit = 0;
+
+insert into employees
+values(3,'Bharat',10);
+
+commit;
+
+set autocommit = 1;

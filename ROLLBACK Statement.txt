@@ -1,0 +1,12 @@
+use db;
+describe employees;
+
+select* from employees;
+
+set autocommit = 0;
+
+delete from employees;
+
+rollback;
+
+set autocommit = 1;
