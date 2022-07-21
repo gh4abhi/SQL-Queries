@@ -1,0 +1,9 @@
+use db;
+describe sqldatatypes;
+select* from sqldatatypes;
+
+update sqldatatypes
+set salary = 4400000
+where name = 'Ram';
+
+select* from sqldatatypes; 
