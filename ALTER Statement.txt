@@ -1,0 +1,10 @@
+use db;
+describe employees;
+
+alter table employees
+add location varchar(50);
+
+alter table employees 
+modify column location varchar(40);
+
+describe employees;
