@@ -7,4 +7,10 @@ add location varchar(50);
 alter table employees 
 modify column location varchar(40);
 
+alter table employees
+rename column location to residence;
+
+alter table employees
+drop column residence;
+
 describe employees;
