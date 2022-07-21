@@ -1,0 +1,4 @@
+use db;
+describe employee;
+
+rename table employee to employees;
