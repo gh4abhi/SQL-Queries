@@ -1,0 +1,10 @@
+use db;
+describe empid;
+
+select* from empid;
+
+set autocommit = 0;
+
+truncate table empid;
+
+set autocommit = 1;
