@@ -1,0 +1,8 @@
+show databases;
+use world;
+select continent, count(name) as count
+from country
+where surfacearea>100
+group by continent
+having count(name)>30
+order by continent;
